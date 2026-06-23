@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Application Form
+    </h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">Name: </label>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </div>
+        <div class="form-control">
+            <label for="user-father" id="label-father">Father's Name: </label>
+            <input type="text" id="user-father" required placeholder="Enter your father's name">
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email: </label>
+            <input type="email" id="email" required placeholder="Enter your email">
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age: </label>
+            <input type="text" id="age" required placeholder="Enter your age">
+        </div>
+        <div class="form-control">
+            <label for="options" id="label-role">Which option best describes you?</label>
+            <select name="role" id="role">
+                <option value="Student">Student</option>
+                <option value="Student">Intern</option>
+                <option value="Student">Professional</option>
+                <option value="Student">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label><b>Would you like to recommend Baytal-Hikmah Online Library to others?</b></label>
+            <label for="recom-1">Yes
+                <input type="radio" id="recom-1" name="recommend">
+            </label>
+            <label for="recom-2">No
+                <input type="radio" id="recom-2" name="recommend">
+            </label>
+            <label for="recom-3">Maybe
+                <input type="radio" id="recom-3" name="recommend">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label><b>Languages and Frameworks known (check all that apply)</b></label>
+            <label for="inp-1">C
+                <input type="checkbox" id="inp-1">
+            </label>
+            <label for="inp-2">C++
+                <input type="checkbox" id="inp-2">
+            </label>
+            <label for="inp-3">Java
+                <input type="checkbox" id="inp-3">
+            </label>
+            <label for="inp-4">Python
+                <input type="checkbox" id="inp-4">
+            </label>
+            <label for="inp-5">React
+                <input type="checkbox" id="inp-5">
+            </label>
+            <label for="inp-6">Angular
+                <input type="checkbox" id="inp-6">
+            </label>
+            <label for="inp-7">Vue.js
+                <input type="checkbox" id="inp-7">
+            </label>
+            <label for="inp-8">Spring
+                <input type="checkbox" id="inp-8">
+            </label>
+            <label for="inp-9">Other
+                <input type="checkbox" id="inp-9">
+            </label>
+        </div><hr>
+        <div class="form-control">
+            <p>Your Valuable Feedback:</p>
+            <label for="comment">
+                <textarea name="comment" id="comment" placeholder="Enter your comments here"></textarea>
+            </label>
+        </div>
+        <button id="submit" type="submit">Submit Application</button>
+        <button id="reset" type="reset">Reset</button>
+
+
+    </form>
+
+
+
+
+</body>
+</html>
