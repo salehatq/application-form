@@ -1,5 +1,5 @@
 body{
-    background-color: #328BE7;
+    background-color:rosybrown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
 }
@@ -8,13 +8,15 @@ form{
     background-color: #fff;
     max-width: 500px;
     margin: 50px auto;
+    margin-top: 20px;
     padding: 30px 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 h1{
+    color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 p{
@@ -48,12 +50,15 @@ p{
 }
 
 button{
-    color: #fff;
-    background-color: #328BE7;
+    color: #000;
+    background-color:burlywood;
     font: inherit;
-    border: 1px solid #777;
-    border-radius: 2px;
-    font-size: 21px;
+    border-bottom: 2px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    font-size: 18px;
     display: inline;
     width:max-content;
     margin: 10px 5px;
@@ -61,7 +66,8 @@ button{
 }
 
 button:hover{
-    background-color: black;
+    color: white;
+    background-color: #888;
     transition-duration: 1s;
 }
 
