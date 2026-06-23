@@ -17,11 +17,26 @@
 // f.salary = "2 thousand"
 // console.log(f)
 
-let age = 18;
+// let age = 0;
 
-if(age>=18){
-    console.log("You can drive")
+// if (age == 18) {
+//     console.log("You can drive")
+// }
+
+// else if (age == 0) {
+//     console.log("don't play with me!")
+// }
+
+// else {
+//     console.log("you can not drive")
+// };
+
+// a = 34;
+// b = 23;
+// let c = a > b ? (a - b) : (a + b);
+
+let a = 1;
+
+for (let h = 0; h < 50; h++) {
+    console.log(a + h);
 }
-else {
-    console.log("you can not drive")
-};
