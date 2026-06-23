@@ -1,0 +1,1 @@
+This is the practice repo for an application form using just html and vanilla css.
