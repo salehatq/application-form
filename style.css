@@ -10,7 +10,6 @@ form {
     margin: 50px auto;
     margin-top: 20px;
     padding: 30px 20px;
-    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -18,11 +17,11 @@ h1 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 p {
-    text-align: start;
+    text-align: right;
 }
 
 .form-control {
