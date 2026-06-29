@@ -10,6 +10,8 @@ form {
     margin: 50px auto;
     margin-top: 20px;
     padding: 30px 20px;
+    box-shadow: 4px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 9px;
 }
 
 h1 {
@@ -21,7 +23,7 @@ h1 {
 }
 
 p {
-    text-align: right;
+    text-align: left;
 }
 
 .form-control {
@@ -54,10 +56,11 @@ p {
 }
 
 button {
-    color: #000;
+    color: black;
     background-color: rgb(255, 255, 255);
     font: inherit;
-    border-bottom: 4px solid #000;
+    /* border: 0.1px 0.1px 4px 0.1px solid black; */
+    border-bottom: 3px solid black;
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;
     border-right: 0.1px solid black;
@@ -71,10 +74,9 @@ button {
 }
 
 button:hover {
-    /* color: white;
-    background-color: #888; */
-    /* transition-duration: 0.3s; */
+    color: white;
+    background-color: #c24d4dc2;
     transform: translateY(-5px);
-    transition: transform 0.3s ease;
-
+    transition: transform 0.4s ease-in-out;
+    /* transition-duration: 0.3s; */
 }
