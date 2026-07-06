@@ -1,1 +1,1 @@
-A simple practice repo for an application form using basic html, css and javascript.
+practice repo for an application form using basic html, css and javascript.
