@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(189, 162, 162);
+    background-color: rgb(226, 215, 215);
     /* background-image: url('https://unsplash.com/photos/orange-plastic-blocks-on-white-surface-_t-l5FFH8VA'); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
@@ -20,7 +20,7 @@ form {
 }
 
 h1 {
-    color: #fff;
+    color: rgb(117, 62, 62);
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
